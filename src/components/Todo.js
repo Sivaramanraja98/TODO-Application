@@ -4,7 +4,7 @@ import styles from '../style.module.css';
 const Todo = ({ todoitem, todoList, setTodoList }) => {
 
   const DeleteTodo = (e) => {
-    setTodoList(todoList.filter((item) => item.id !== todoitem.id));
+    setTodoList(todoList.filter((item) => item.id !== todoitem.id))
   };
 
   return (
