@@ -12,7 +12,7 @@ const TodoList = ({todoList, setTodoList}) => {
             setTodoList = {setTodoList}
             />
             )
-        )};
+        )}
     </div>
   )
 };
